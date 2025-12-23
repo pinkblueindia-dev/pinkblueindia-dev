@@ -16,28 +16,32 @@
     <!-- HERO -->
     <section class="hero">
       <div class="hero-overlay">
-        <h1>Beautiful Matching Outfits for Kids & Families</h1>
-        <p>
-          Handcrafted birthday outfits and family matching clothing.
-          Premium quality. Custom sizes. Worldwide support.
-        </p>
+        <div class="hero-content">
+          <h1>Beautiful Matching Outfits for Kids & Families</h1>
 
-        <div class="hero-cta">
-          <a href="https://www.pinkblueindia.com" class="btn primary">
-            Shop Collection
-          </a>
-          <a
-            href="https://wa.me/918003550118?text=Hi%20PinkBlueIndia,%20I%20want%20to%20buy%20a%20kids%20outfit"
-            class="btn whatsapp"
-            target="_blank"
-          >
-            WhatsApp to Customize
-          </a>
+          <p>
+            Handcrafted birthday outfits and family matching clothing.
+            Premium quality, custom sizes, worldwide delivery.
+          </p>
+
+          <div class="hero-cta">
+            <a href="https://www.pinkblueindia.com" class="btn primary">
+              Shop Collection
+            </a>
+
+            <a
+              href="https://wa.me/91XXXXXXXXXX"
+              class="btn whatsapp"
+              target="_blank"
+            >
+              WhatsApp to Customize
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- TRUST -->
+    <!-- TRUST STRIP -->
     <section class="trust">
       <span>Handmade</span>
       <span>Premium Fabrics</span>
@@ -53,22 +57,22 @@
       <div class="grid">
         <div class="box">
           <h3>Kids Birthday Outfits</h3>
-          <p>Perfect looks for first birthdays and celebrations.</p>
+          <p>Perfect outfits for first birthdays and celebrations.</p>
         </div>
 
         <div class="box">
           <h3>Mother Daughter Matching</h3>
-          <p>Elegant matching dresses for special moments.</p>
+          <p>Elegant matching styles for special moments.</p>
         </div>
 
         <div class="box">
           <h3>Family Matching Outfits</h3>
-          <p>Coordinated outfits for photos and events.</p>
+          <p>Coordinated looks for photos and events.</p>
         </div>
 
         <div class="box">
           <h3>Festive Wear</h3>
-          <p>Comfortable styles for festive occasions.</p>
+          <p>Comfortable outfits for festive occasions.</p>
         </div>
       </div>
     </section>
@@ -77,18 +81,19 @@
     <section id="why" class="why">
       <h2>Why PinkBlueIndia</h2>
       <p>
-        We create thoughtfully designed outfits for kids and families.
-        Every piece is handmade with attention to comfort, fit and timeless style.
-        Custom sizing and personal WhatsApp support make every order special.
+        Every outfit is handcrafted with care, keeping comfort and fit in mind.
+        We offer custom sizing, premium fabrics and direct WhatsApp support
+        so every order feels personal.
       </p>
     </section>
 
     <!-- WHATSAPP CTA -->
-    <section id="contact" class="whatsapp">
+    <section id="contact" class="whatsapp-section">
       <h2>Need help with size or customization?</h2>
-      <p>Chat directly with us for quick assistance and custom orders.</p>
+      <p>Chat with us directly for quick assistance.</p>
+
       <a
-        href="https://wa.me/918003550118?text=Hi%20PinkBlueIndia,%20I%20need%20help%20with%20an%20order"
+        href="https://wa.me/91XXXXXXXXXX"
         class="btn whatsapp large"
         target="_blank"
       >
@@ -101,16 +106,16 @@
       <div class="footer-grid">
         <div>
           <strong>PinkBlueIndia</strong>
-          <p>Handcrafted kids & family outfits.</p>
+          <p>Handcrafted kids & family matching outfits.</p>
         </div>
 
         <div>
-          <strong>Follow Us</strong>
+          <strong>Social</strong>
           <p>Instagram • Facebook • Pinterest</p>
         </div>
 
         <div>
-          <strong>Payments</strong>
+          <strong>Payments Accepted</strong>
           <p>Visa • MasterCard • RuPay • UPI • GPay • PhonePe • COD</p>
         </div>
       </div>
@@ -131,25 +136,12 @@ useHead({
       name: 'description',
       content:
         'Shop handcrafted kids birthday outfits, mother daughter matching dresses and family matching clothing. Premium quality, custom sizing and WhatsApp support worldwide.'
-    },
-    {
-      property: 'og:title',
-      content: 'PinkBlueIndia | Kids & Family Matching Outfits'
-    },
-    {
-      property: 'og:description',
-      content:
-        'Beautifully handcrafted kids and family matching outfits for birthdays and special moments.'
     }
   ]
 })
 </script>
 
 <style scoped>
-body {
-  margin: 0;
-}
-
 .nav {
   background: #fff;
   border-bottom: 1px solid #eee;
@@ -165,8 +157,8 @@ body {
 }
 
 .logo {
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
 }
 
 .nav a {
@@ -177,39 +169,53 @@ body {
 
 .hero {
   height: 85vh;
-  background: url('/images/hero.jpg') center / cover no-repeat;
+  background-image: url('/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
   position: relative;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
-  color: #fff;
+  background: rgba(0,0,0,0.55);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 900px;
   text-align: center;
+  color: #fff;
   padding: 20px;
 }
 
-.hero h1 {
-  max-width: 720px;
-  font-size: 36px;
+.hero-content h1 {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
 
-.hero p {
-  max-width: 620px;
-  margin: 16px 0;
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 auto 28px;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .btn {
-  padding: 14px 22px;
-  margin: 6px;
-  border-radius: 6px;
-  text-decoration: none;
+  padding: 14px 26px;
+  border-radius: 8px;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .primary {
@@ -223,22 +229,22 @@ body {
 }
 
 .large {
-  padding: 16px 28px;
+  padding: 16px 32px;
 }
 
 .trust {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 20px;
+  padding: 18px;
   background: #fafafa;
   flex-wrap: wrap;
 }
 
 .collections,
 .why,
-.whatsapp {
-  padding: 50px 20px;
+.whatsapp-section {
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -252,12 +258,12 @@ body {
 
 .box {
   border: 1px solid #eee;
-  padding: 20px;
+  padding: 24px;
 }
 
 .footer {
   background: #f5f5f5;
-  padding: 30px 20px;
+  padding: 40px 20px;
 }
 
 .footer-grid {
@@ -272,5 +278,15 @@ body {
   text-align: center;
   margin-top: 20px;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
 }
 </style>
