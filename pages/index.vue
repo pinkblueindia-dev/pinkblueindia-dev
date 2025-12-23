@@ -27,7 +27,7 @@
             Shop Collection
           </a>
           <a
-            href="https://wa.me/91XXXXXXXXXX?text=Hi%20PinkBlueIndia,%20I%20want%20to%20buy%20a%20kids%20outfit"
+            href="https://wa.me/918003550118?text=Hi%20PinkBlueIndia,%20I%20want%20to%20buy%20a%20kids%20outfit"
             class="btn whatsapp"
             target="_blank"
           >
