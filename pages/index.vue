@@ -30,7 +30,7 @@
             </a>
 
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/918003550118"
               class="btn whatsapp"
               target="_blank"
             >
@@ -93,7 +93,7 @@
       <p>Chat with us directly for quick assistance.</p>
 
       <a
-        href="https://wa.me/91XXXXXXXXXX"
+        href="https://wa.me/918003550118"
         class="btn whatsapp large"
         target="_blank"
       >
@@ -169,7 +169,7 @@ useHead({
 
 .hero {
   height: 85vh;
-  background-image: url('/images/hero.jpg');
+  background-image: url('/images/hero-banner.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
