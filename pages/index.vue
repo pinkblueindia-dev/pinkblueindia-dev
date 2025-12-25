@@ -27,11 +27,7 @@
             <a href="https://www.pinkblueindia.com" class="btn primary">
               Shop Collection
             </a>
-            <a
-              href="https://wa.me/918003550118"
-              class="btn whatsapp"
-              target="_blank"
-            >
+            <a href="https://wa.me/918003550118" class="btn whatsapp" target="_blank">
               WhatsApp to Customize
             </a>
           </div>
@@ -39,93 +35,48 @@
       </div>
     </section>
 
-    <!-- TRUST -->
-    <section class="trust">
-      <span>Handmade</span>
-      <span>Premium Fabrics</span>
-      <span>Custom Sizes</span>
-      <span>Fast Delivery</span>
-      <span>WhatsApp Support</span>
-    </section>
-
     <!-- COLLECTIONS -->
     <section id="collections" class="collections">
       <h2>Shop by Collection</h2>
 
       <div class="grid">
-
         <div class="box">
           <img src="/images/birthday-category.jpg" alt="Kids Birthday Outfits">
           <h3>Kids Birthday Outfits</h3>
-          <p>Perfect outfits for first birthdays and celebrations.</p>
+          <p>Perfect outfits for first birthdays.</p>
         </div>
 
         <div class="box">
           <img src="/images/mother-daughter-category.jpg" alt="Mother Daughter Matching">
           <h3>Mother Daughter Matching</h3>
-          <p>Elegant matching styles for special moments.</p>
+          <p>Elegant matching styles.</p>
         </div>
 
         <div class="box">
           <img src="/images/family-category.jpg" alt="Family Matching Outfits">
           <h3>Family Matching Outfits</h3>
-          <p>Coordinated looks for photos and events.</p>
+          <p>Perfect for photos and events.</p>
         </div>
 
         <div class="box">
           <img src="/images/festive-category.jpg" alt="Festive Wear">
           <h3>Festive Wear</h3>
-          <p>Comfortable outfits for festive occasions.</p>
+          <p>Comfortable festive outfits.</p>
         </div>
-
       </div>
     </section>
 
-    <!-- WHY -->
-    <section id="why" class="why">
-      <h2>Why PinkBlueIndia</h2>
-      <p>
-        Every outfit is handcrafted with care, keeping comfort and fit in mind.
-        We offer custom sizing, premium fabrics and direct WhatsApp support.
-      </p>
-    </section>
-
-    <!-- WHATSAPP -->
+    <!-- CONTACT -->
     <section id="contact" class="whatsapp-section">
       <h2>Need help with size or customization?</h2>
-      <p>Chat with us directly for quick assistance.</p>
-
-      <a
-        href="https://wa.me/918003550118"
-        class="btn whatsapp large"
-        target="_blank"
-      >
+      <a href="https://wa.me/918003550118" class="btn whatsapp large" target="_blank">
         Chat on WhatsApp
       </a>
     </section>
 
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="footer-grid">
-        <div>
-          <strong>PinkBlueIndia</strong>
-          <p>Handcrafted kids & family matching outfits.</p>
-        </div>
-
-        <div>
-          <strong>Social</strong>
-          <p>Instagram • Facebook • Pinterest</p>
-        </div>
-
-        <div>
-          <strong>Payments Accepted</strong>
-          <p>Visa • MasterCard • RuPay • UPI • GPay • PhonePe • COD</p>
-        </div>
-      </div>
-
-      <div class="copy">
-        © PinkBlueIndia. All rights reserved.
-      </div>
+      <p>© PinkBlueIndia. All rights reserved.</p>
     </footer>
 
   </div>
@@ -133,12 +84,12 @@
 
 <script setup>
 useHead({
-  title: 'PinkBlueIndia | Kids Birthday Outfits & Family Matching Clothing',
+  title: 'PinkBlueIndia | Kids Birthday & Family Matching Outfits',
   meta: [
     {
       name: 'description',
       content:
-        'Shop handcrafted kids birthday outfits, mother daughter matching dresses and family matching clothing. Premium quality, custom sizing and WhatsApp support worldwide.'
+        'Shop handcrafted kids birthday outfits, mother daughter matching dresses and family matching clothing with worldwide delivery.'
     }
   ]
 })
@@ -146,107 +97,68 @@ useHead({
 
 <style scoped>
 .nav {
-  background: #fff;
   border-bottom: 1px solid #eee;
+  padding: 14px 20px;
 }
-
 .nav-inner {
   max-width: 1200px;
   margin: auto;
-  padding: 14px 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-
 .logo {
-  font-size: 18px;
   font-weight: 700;
 }
-
 .nav a {
   margin-left: 20px;
   text-decoration: none;
   color: #000;
 }
-
 .hero {
   height: 85vh;
-  background-image: url('/images/hero-banner.jpg');
-  background-size: cover;
-  background-position: center;
+  background: url('/images/hero-banner.jpg') center/cover no-repeat;
   position: relative;
 }
-
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.55);
+  background: rgba(0,0,0,.55);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .hero-content {
-  max-width: 900px;
-  text-align: center;
   color: #fff;
-  padding: 20px;
+  text-align: center;
+  max-width: 800px;
 }
-
 .hero-content h1 {
-  font-size: 42px;
-  margin-bottom: 16px;
+  font-size: 40px;
 }
-
 .hero-content p {
-  font-size: 18px;
-  max-width: 650px;
-  margin: 0 auto 28px;
+  margin: 20px 0;
 }
-
-.hero-cta {
-  display: flex;
-  gap: 14px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .btn {
   padding: 14px 26px;
   border-radius: 8px;
-  font-weight: 600;
   text-decoration: none;
+  font-weight: 600;
 }
-
 .primary {
   background: #000;
   color: #fff;
 }
-
 .whatsapp {
   background: #25d366;
   color: #fff;
 }
-
 .large {
   padding: 16px 32px;
 }
-
-.trust {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 18px;
-  background: #fafafa;
-  flex-wrap: wrap;
-}
-
 .collections {
   padding: 60px 20px;
   text-align: center;
 }
-
 .grid {
   max-width: 1100px;
   margin: 40px auto;
@@ -254,43 +166,15 @@ useHead({
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 24px;
 }
-
-.box {
-  border: 1px solid #eee;
-  padding: 16px;
-  text-align: left;
-}
-
 .box img {
   width: 100%;
   height: 320px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 12px;
 }
-
 .footer {
-  background: #f5f5f5;
-  padding: 40px 20px;
-}
-
-.footer-grid {
-  max-width: 1000px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.copy {
+  padding: 30px;
   text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 28px;
-  }
+  background: #f5f5f5;
 }
 </style>
