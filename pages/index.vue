@@ -18,7 +18,6 @@
       <div class="hero-overlay">
         <div class="hero-content">
           <h1>Beautiful Matching Outfits for Kids & Families</h1>
-
           <p>
             Handcrafted birthday outfits and family matching clothing.
             Premium quality, custom sizes, worldwide delivery.
@@ -28,7 +27,6 @@
             <a href="https://www.pinkblueindia.com" class="btn primary">
               Shop Collection
             </a>
-
             <a
               href="https://wa.me/918003550118"
               class="btn whatsapp"
@@ -41,7 +39,7 @@
       </div>
     </section>
 
-    <!-- TRUST STRIP -->
+    <!-- TRUST -->
     <section class="trust">
       <span>Handmade</span>
       <span>Premium Fabrics</span>
@@ -55,39 +53,44 @@
       <h2>Shop by Collection</h2>
 
       <div class="grid">
+
         <div class="box">
+          <img src="/images/birthday-category.jpg" alt="Kids Birthday Outfits">
           <h3>Kids Birthday Outfits</h3>
           <p>Perfect outfits for first birthdays and celebrations.</p>
         </div>
 
         <div class="box">
+          <img src="/images/mother-daughter-category.jpg" alt="Mother Daughter Matching">
           <h3>Mother Daughter Matching</h3>
           <p>Elegant matching styles for special moments.</p>
         </div>
 
         <div class="box">
+          <img src="/images/family-category.jpg" alt="Family Matching Outfits">
           <h3>Family Matching Outfits</h3>
           <p>Coordinated looks for photos and events.</p>
         </div>
 
         <div class="box">
+          <img src="/images/festive-category.jpg" alt="Festive Wear">
           <h3>Festive Wear</h3>
           <p>Comfortable outfits for festive occasions.</p>
         </div>
+
       </div>
     </section>
 
-    <!-- WHY US -->
+    <!-- WHY -->
     <section id="why" class="why">
       <h2>Why PinkBlueIndia</h2>
       <p>
         Every outfit is handcrafted with care, keeping comfort and fit in mind.
-        We offer custom sizing, premium fabrics and direct WhatsApp support
-        so every order feels personal.
+        We offer custom sizing, premium fabrics and direct WhatsApp support.
       </p>
     </section>
 
-    <!-- WHATSAPP CTA -->
+    <!-- WHATSAPP -->
     <section id="contact" class="whatsapp-section">
       <h2>Need help with size or customization?</h2>
       <p>Chat with us directly for quick assistance.</p>
@@ -193,13 +196,11 @@ useHead({
 
 .hero-content h1 {
   font-size: 42px;
-  line-height: 1.2;
   margin-bottom: 16px;
 }
 
 .hero-content p {
   font-size: 18px;
-  line-height: 1.6;
   max-width: 650px;
   margin: 0 auto 28px;
 }
@@ -241,24 +242,31 @@ useHead({
   flex-wrap: wrap;
 }
 
-.collections,
-.why,
-.whatsapp-section {
+.collections {
   padding: 60px 20px;
   text-align: center;
 }
 
 .grid {
-  max-width: 1000px;
-  margin: 30px auto;
+  max-width: 1100px;
+  margin: 40px auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
 }
 
 .box {
   border: 1px solid #eee;
-  padding: 24px;
+  padding: 16px;
+  text-align: left;
+}
+
+.box img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .footer {
@@ -283,10 +291,6 @@ useHead({
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 28px;
-  }
-
-  .hero-content p {
-    font-size: 16px;
   }
 }
 </style>
