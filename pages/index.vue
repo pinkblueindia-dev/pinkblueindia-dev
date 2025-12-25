@@ -41,7 +41,6 @@
       <h2>Shop by Collection</h2>
 
       <div class="collection-grid">
-
         <div class="collection-card">
           <img
             src="https://pinkblueindia.netlify.app/images/birthday-category.jpg"
@@ -63,21 +62,19 @@
             <p>Coordinated looks for photos, events and special days.</p>
           </div>
         </div>
-
       </div>
     </section>
 
-    <!-- WHY US -->
+    <!-- WHY -->
     <section id="why" class="why">
       <h2>Why PinkBlueIndia</h2>
       <p>
-        Every outfit is handcrafted with care. We focus on comfort, fit and
-        premium fabrics. Custom sizing and direct WhatsApp support make every
-        order personal.
+        Every outfit is handcrafted with care. Comfort, fit and premium fabrics
+        are our priority. Custom sizing and direct WhatsApp support included.
       </p>
     </section>
 
-    <!-- WHATSAPP CTA -->
+    <!-- CTA -->
     <section id="contact" class="cta">
       <h2>Need help with size or customization?</h2>
       <p>Chat directly with our team for quick assistance.</p>
@@ -89,13 +86,6 @@
         Chat on WhatsApp
       </a>
     </section>
-<template>
-  <div>
-    <slot />
-    <Footer />
-  </div>
-</template>
-
 
   </div>
 </template>
@@ -114,7 +104,6 @@ useHead({
 </script>
 
 <style scoped>
-/* NAV */
 .nav {
   background: #fff;
   border-bottom: 1px solid #eee;
@@ -137,7 +126,6 @@ useHead({
   color: #000;
 }
 
-/* HERO */
 .hero {
   height: 85vh;
   background-image: url('https://pinkblueindia.netlify.app/images/hero-banner.jpg');
@@ -168,13 +156,11 @@ useHead({
   margin-bottom: 28px;
 }
 
-/* BUTTONS */
 .btn {
   padding: 14px 26px;
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
-  display: inline-block;
 }
 .primary {
   background: #000;
@@ -194,7 +180,6 @@ useHead({
   flex-wrap: wrap;
 }
 
-/* COLLECTIONS */
 .collections {
   padding: 70px 20px;
   text-align: center;
@@ -219,7 +204,6 @@ useHead({
   padding: 20px;
 }
 
-/* WHY */
 .why {
   padding: 70px 20px;
   background: #fafafa;
@@ -230,21 +214,11 @@ useHead({
   margin: auto;
 }
 
-/* CTA */
 .cta {
   padding: 70px 20px;
   text-align: center;
 }
 
-/* FOOTER */
-.footer {
-  padding: 30px 20px;
-  background: #f5f5f5;
-  text-align: center;
-  font-size: 14px;
-}
-
-/* MOBILE */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 28px;
