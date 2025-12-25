@@ -89,11 +89,13 @@
         Chat on WhatsApp
       </a>
     </section>
+<template>
+  <div>
+    <slot />
+    <Footer />
+  </div>
+</template>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <p>© PinkBlueIndia. All rights reserved.</p>
-    </footer>
 
   </div>
 </template>
