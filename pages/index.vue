@@ -1,18 +1,6 @@
 <template>
   <div>
 
-    <!-- NAVBAR -->
-    <header class="nav">
-      <div class="nav-inner">
-        <div class="logo">PinkBlueIndia</div>
-        <nav>
-          <a href="#collections">Collections</a>
-          <a href="#why">Why Us</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
-    </header>
-
     <!-- HERO -->
     <section class="hero">
       <div class="hero-overlay">
@@ -59,7 +47,7 @@
           />
           <div class="card-content">
             <h3>Family Matching Outfits</h3>
-            <p>Coordinated looks for photos, events and special days.</p>
+            <p>Coordinated looks for photos and special days.</p>
           </div>
         </div>
       </div>
@@ -69,15 +57,14 @@
     <section id="why" class="why">
       <h2>Why PinkBlueIndia</h2>
       <p>
-        Every outfit is handcrafted with care. Comfort, fit and premium fabrics
-        are our priority. Custom sizing and direct WhatsApp support included.
+        Handcrafted outfits with premium fabrics, custom sizing and direct
+        WhatsApp support.
       </p>
     </section>
 
     <!-- CTA -->
     <section id="contact" class="cta">
       <h2>Need help with size or customization?</h2>
-      <p>Chat directly with our team for quick assistance.</p>
       <a
         href="https://wa.me/918003550118"
         target="_blank"
@@ -97,134 +84,8 @@ useHead({
     {
       name: 'description',
       content:
-        'Shop handcrafted kids birthday outfits and family matching clothing. Premium fabrics, custom sizing and WhatsApp support.'
+        'Shop handcrafted kids birthday outfits and family matching clothing.'
     }
   ]
 })
 </script>
-
-<style scoped>
-.nav {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-}
-.nav-inner {
-  max-width: 1200px;
-  margin: auto;
-  padding: 16px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  font-weight: 700;
-  font-size: 18px;
-}
-.nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #000;
-}
-
-.hero {
-  height: 85vh;
-  background-image: url('https://pinkblueindia.netlify.app/images/hero-banner.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.55);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-content {
-  text-align: center;
-  color: #fff;
-  max-width: 800px;
-  padding: 20px;
-}
-.hero-content h1 {
-  font-size: 42px;
-  margin-bottom: 16px;
-}
-.hero-content p {
-  font-size: 18px;
-  margin-bottom: 28px;
-}
-
-.btn {
-  padding: 14px 26px;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-}
-.primary {
-  background: #000;
-  color: #fff;
-}
-.whatsapp {
-  background: #25d366;
-  color: #fff;
-}
-.large {
-  padding: 16px 32px;
-}
-.hero-cta {
-  display: flex;
-  gap: 14px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.collections {
-  padding: 70px 20px;
-  text-align: center;
-}
-.collection-grid {
-  max-width: 1100px;
-  margin: 40px auto 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-}
-.collection-card {
-  border: 1px solid #eee;
-  overflow: hidden;
-}
-.collection-card img {
-  width: 100%;
-  height: 320px;
-  object-fit: cover;
-}
-.card-content {
-  padding: 20px;
-}
-
-.why {
-  padding: 70px 20px;
-  background: #fafafa;
-  text-align: center;
-}
-.why p {
-  max-width: 800px;
-  margin: auto;
-}
-
-.cta {
-  padding: 70px 20px;
-  text-align: center;
-}
-
-@media (max-width: 768px) {
-  .hero-content h1 {
-    font-size: 28px;
-  }
-  .collection-card img {
-    height: 240px;
-  }
-}
-</style>
